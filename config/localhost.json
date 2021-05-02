@@ -1,0 +1,30 @@
+{
+    "express": {
+        "port": 3000,
+        "timeout": 30000
+    },
+    "root_path": "/api",
+    "api": {
+        "versions": {
+            "v1.0": {
+                "deprecated": false
+            }
+        }
+    },
+    "logging": {
+        "level": "debug",
+        "timezone": "Asia/Kolkata"
+    },
+    "cron": {
+        "global_config": {
+            "scheduled": false,
+            "timezone": "Asia/Kolkata"
+        },
+        "scheduler": {}
+    },
+    "email": {
+        "from": "",
+        "domain": "",
+        "testmode": true
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "name": "ipo-watch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshit-budhraja/cowin-svc.git"
+  },
+  "author": "Harshit Budhraja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshit-budhraja/cowin-svc/issues"
+  },
+  "homepage": "https://github.com/harshit-budhraja/cowin-svc",
+  "dependencies": {
+    "axios": "0.21.1",
+    "body-parser": "1.19.0",
+    "config": "3.3.1",
+    "cors": "2.8.5",
+    "dotenv": "8.2.0",
+    "ejs": "3.1.6",
+    "express": "4.17.1",
+    "hashcode": "1.0.3",
+    "http": "0.0.1-security",
+    "mailgun-js": "0.22.0",
+    "moment-timezone": "0.5.28",
+    "mongoose": "5.12.3",
+    "node-cache": "5.1.2",
+    "node-cron": "3.0.0",
+    "slugify": "1.5.0",
+    "sugar-date": "2.0.6",
+    "uuid": "8.3.2",
+    "winston": "3.2.1"
+  }
+}
